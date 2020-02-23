@@ -324,6 +324,7 @@ color: #ffffff;
 border: 1px solid #998675;
 background-color: #998675;
 border-radius: 3px;
+cursor: pointer;
 margin: 0 auto;
 }
 
@@ -606,6 +607,7 @@ color: #8c8c8c;
 border: 1px solid #8c8c8c;
 background-color: #ffffff;
 border-radius: 3px;
+cursor: pointer;
 margin: 0 0 0 10px;
 }
 
@@ -1092,6 +1094,7 @@ margin: 5px;
     border-radius: 50%;
     position: relative;
     background-color: transparent;
+    cursor: pointer;
     margin: 0 8px 0 0;
 }
 .recent-button-left:after {
@@ -1112,6 +1115,7 @@ margin: 5px;
     border: 2px solid #d1d1d1;
     border-radius: 50%;
     position: relative;
+    cursor: pointer;
     background-color: transparent;
 }
 
@@ -1941,3 +1945,7 @@ input[type="checkbox"]:checked ~ .menu-nav {
 .recent-item:first-child {
     margin: 0;
 }
+
+
+
+
