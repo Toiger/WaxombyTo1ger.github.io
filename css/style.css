@@ -633,7 +633,7 @@ margin: 0 0 0 10px;
     flex-direction: row;
     justify-content:center;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     margin: 0 0 40px 0;
 }
 
@@ -967,6 +967,7 @@ margin: 0 auto;
     position: relative;
     width: 370px;
     border: 1px solid #f8f8f8;
+    margin-left: 3%;
 }
 
 .resent-item-title {
@@ -1933,4 +1934,10 @@ input[type="checkbox"]:checked ~ .menu-nav {
     .footer-bottom-right-item{
         padding-right: 6px;
     }
+}
+
+
+
+.recent-item:first-child {
+    margin: 0;
 }
